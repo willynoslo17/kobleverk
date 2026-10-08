@@ -18,7 +18,7 @@
 
 ## Footer (todas las páginas NO)
 
-- Kobleverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com
+- Kobleverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
 - Kartlegging · Vekstpartner · Personvern og databehandleravtale · willymartinez.no/consulting · © 2026
 
 ## Nota de precios (páginas con precios)
@@ -248,10 +248,10 @@
 ### Mensajes form.js (nb)
 - Sender…
 - Takk! Jeg svarer innen 1 virkedag.
-- Noe gikk galt. Send e-post til willynoslo17@gmail.com.
+- Noe gikk galt. Send e-post til kontakt@mlinternasjonal.no.
 
 ### Om meg
-- Placeholder alt: Placeholder for bilde av Willy Edison Martínez Lozano
+- (Sin foto de perfil en esta versión.)
 - Jeg heter Willy Edison Martínez Lozano. Firmaet mitt er registrert i Oslo. Jeg er grunnlegger av Wecrops Perú (byrå for markedsføring og videoproduksjon, Chimbote, 2015–2022), med erfaring innen markedsføring siden 2015. Jeg har 7 diplomer fra Toulouse Lautrec (2019–2021).
 - Jeg kombinerer markedsføring med no-code-automatisering for små bedrifter.
 - Jeg jobber på spansk og engelsk, og på norsk med kvalitetssikrede tekster.

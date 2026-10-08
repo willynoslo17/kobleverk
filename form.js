@@ -22,12 +22,12 @@
   const msg = {
     nb: {
       ok: "Takk! Jeg svarer innen 1 virkedag.",
-      err: 'Noe gikk galt. Send e-post til <a href="mailto:willynoslo17@gmail.com?subject=Kobleverk">willynoslo17@gmail.com</a>.',
+      err: 'Noe gikk galt. Send e-post til <a href="mailto:kontakt@mlinternasjonal.no?subject=Kobleverk">kontakt@mlinternasjonal.no</a>.',
       sending: "Sender…",
     },
     es: {
       ok: "¡Gracias! Respondo en 1 día laborable.",
-      err: 'Algo falló. Envía un correo a <a href="mailto:willynoslo17@gmail.com?subject=Kobleverk">willynoslo17@gmail.com</a>.',
+      err: 'Algo falló. Envía un correo a <a href="mailto:kontakt@mlinternasjonal.no?subject=Kobleverk">kontakt@mlinternasjonal.no</a>.',
       sending: "Enviando…",
     },
   }[lang];
