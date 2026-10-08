@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt og om meg – Kobleverk</title>
+  <meta name="description" content="Kontakt Willy Edison Martínez Lozano om kartlegging, automatisering eller AI-integrasjon og vekst. Gratis samtale.">
+  <link rel="canonical" href="https://kobleverk.pages.dev/kontakt/">
+  <link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/kontakt/">
+  <link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/contacto/">
+  <link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/kontakt/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kobleverk">
+  <meta property="og:locale" content="nb_NO">
+  <meta property="og:title" content="Kontakt og om meg – Kobleverk">
+  <meta property="og:description" content="Kontakt Willy om kartlegging, automatisering eller AI-integrasjon og vekst.">
+  <meta property="og:url" content="https://kobleverk.pages.dev/kontakt/">
+  <meta property="og:image" content="https://kobleverk.pages.dev/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kontakt og om meg – Kobleverk">
+  <meta name="twitter:description" content="Kontakt Willy om kartlegging, automatisering eller AI-integrasjon og vekst.">
+  <meta name="twitter:image" content="https://kobleverk.pages.dev/og-image.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Hjem", "item": "https://kobleverk.pages.dev/" },
+      { "@type": "ListItem", "position": 2, "name": "Kontakt", "item": "https://kobleverk.pages.dev/kontakt/" }
+    ]
+  }
+  </script>
+  <script src="/form.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#innhold">Hopp til innhold</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="header-brand-row">
+        <a class="logo" href="/">Kobleverk</a>
+        <details class="nav-details">
+          <summary class="nav-toggle">Meny</summary>
+          <nav class="nav-panel" aria-label="Hovedmeny">
+            <a href="/kartlegging/">Kartlegging</a>
+            <a href="/automatisering/">Automatisering</a>
+            <a href="/vekstpartner/">Vekstpartner</a>
+            <a href="/#priser">Priser</a>
+            <a href="/kontakt/#om-meg">Om meg</a>
+            <a class="btn" href="/kontakt/" aria-current="page">Kontakt</a>
+            <span class="lang-switch" aria-label="Språk">
+              <a href="/kontakt/" aria-current="page">NO</a>
+              <span aria-hidden="true">|</span>
+              <a href="/es/contacto/">ES</a>
+            </span>
+          </nav>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <main id="innhold">
+    <section class="hero">
+      <div class="wrap">
+        <h1>Kontakt</h1>
+        <p class="lede">Fortell kort om bedriften og hva du ønsker hjelp til. Jeg svarer innen 1 virkedag.</p>
+        <p class="note">Ikke send passord eller sensitive opplysninger i skjemaet.</p>
+
+        <form id="kontakt-form" class="form" data-lang="nb"
+              action="mailto:willynoslo17@gmail.com?subject=Kobleverk"
+              method="post" enctype="text/plain">
+          <label>
+            Navn *
+            <input type="text" name="navn" required maxlength="120" autocomplete="name">
+          </label>
+          <label>
+            Bedrift
+            <input type="text" name="bedrift" maxlength="160" autocomplete="organization">
+          </label>
+          <label>
+            E-post *
+            <input type="email" name="email" required maxlength="200" autocomplete="email">
+          </label>
+          <label>
+            Telefon
+            <input type="tel" name="telefon" maxlength="40" autocomplete="tel">
+          </label>
+          <label>
+            Hvilke verktøy bruker du i dag?
+            <input type="text" name="verktoy" maxlength="300" placeholder="f.eks. nettside, Gmail, regneark">
+          </label>
+          <label>
+            Pakke
+            <select name="pakke">
+              <option value="kartlegging">Kartlegging</option>
+              <option value="enkel-automatisering">Enkel automatisering</option>
+              <option value="ai-integrasjon-og-vekst">AI-integrasjon og vekst</option>
+              <option value="usikker">Usikker</option>
+            </select>
+          </label>
+          <label>
+            Melding *
+            <textarea name="melding" required maxlength="4000"></textarea>
+          </label>
+          <label class="check">
+            <input type="checkbox" name="consent" required>
+            <span>Jeg samtykker til at opplysningene brukes for å svare på henvendelsen. Se <a href="/personvern/">personvern</a>.</span>
+          </label>
+          <div class="hp" aria-hidden="true">
+            <label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+          </div>
+          <button class="btn" type="submit">Send</button>
+          <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+        </form>
+
+        <div class="contact-aside">
+          <p><a href="tel:+4791290416">+47 912 90 416</a></p>
+          <p><a href="mailto:willynoslo17@gmail.com">willynoslo17@gmail.com</a></p>
+          <p>Norbygata 19, 0187 Oslo, Norge</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="om-meg">
+      <div class="wrap">
+        <h2>Om meg</h2>
+        <!-- TODO Willy: solo foto-cv.jpg (camisa blanca) o ninguna foto -->
+        <img class="portrait" src="/img/willy.webp" width="160" height="160" alt="Placeholder for bilde av Willy Edison Martínez Lozano" loading="lazy">
+        <p>Jeg heter Willy Edison Martínez Lozano. Firmaet mitt er registrert i Oslo. Jeg er grunnlegger av Wecrops Perú (byrå for markedsføring og videoproduksjon, Chimbote, 2015–2022), med erfaring innen markedsføring siden 2015. Jeg har 7 diplomer fra Toulouse Lautrec (2019–2021). <!-- TODO Willy: confirmar títulos exactos de los diplomas. --></p>
+        <p>Jeg kombinerer markedsføring med no-code-automatisering for små bedrifter.</p>
+        <p>Jeg jobber på spansk og engelsk, og på norsk med kvalitetssikrede tekster.</p>
+        <p>Kobleverk er en del av ML Digital.</p>
+        <p><a href="https://willymartinez.no/consulting">Rådgivning i internasjonal handel</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="legal">Kobleverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com</p>
+      <ul class="footer-links">
+        <li><a href="/kartlegging/">Kartlegging</a></li>
+        <li><a href="/vekstpartner/">Vekstpartner</a></li>
+        <li><a href="/personvern/">Personvern og databehandleravtale</a></li>
+        <li><a href="https://willymartinez.no/consulting">willymartinez.no/consulting</a></li>
+        <li>© 2026</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
