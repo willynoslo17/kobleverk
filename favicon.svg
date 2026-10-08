@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Kobleverk">
+  <rect width="64" height="64" rx="14" fill="#1C1917"/>
+  <circle cx="14" cy="18" r="4" fill="#F2C14E"/>
+  <circle cx="50" cy="20" r="4" fill="#F2C14E"/>
+  <circle cx="18" cy="48" r="4" fill="#F2C14E"/>
+  <circle cx="48" cy="46" r="4" fill="#B8430B"/>
+  <path d="M17 20 L28 32 M46 22 L36 32 M21 45 L30 36 M45 44 L36 36" stroke="#FBF6EE" stroke-width="2" stroke-linecap="round"/>
+  <text x="32" y="40" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="800" font-size="26" fill="#FBF6EE">K</text>
+</svg>
