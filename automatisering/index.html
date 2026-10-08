@@ -61,9 +61,9 @@
     <div class="wrap header-inner">
       <div class="header-brand-row">
         <a class="logo" href="/">Kobleverk</a>
-        <details class="nav-details">
-          <summary class="nav-toggle">Meny</summary>
-          <nav class="nav-panel" aria-label="Hovedmeny">
+        <input type="checkbox" id="nav-toggle" class="nav-check" aria-controls="site-nav">
+        <label for="nav-toggle" class="nav-toggle">Meny</label>
+        <nav id="site-nav" class="nav-panel" aria-label="Hovedmeny">
             <a href="/kartlegging/">Kartlegging</a>
             <a href="/automatisering/" aria-current="page">Automatisering</a>
             <a href="/vekstpartner/">Vekstpartner</a>
@@ -76,7 +76,6 @@
               <a href="/es/automatizacion/">ES</a>
             </span>
           </nav>
-        </details>
       </div>
     </div>
   </header>

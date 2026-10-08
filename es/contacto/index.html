@@ -40,9 +40,9 @@
     <div class="wrap header-inner">
       <div class="header-brand-row">
         <a class="logo" href="/es/">Kobleverk</a>
-        <details class="nav-details">
-          <summary class="nav-toggle">Menú</summary>
-          <nav class="nav-panel" aria-label="Menú principal">
+        <input type="checkbox" id="nav-toggle" class="nav-check" aria-controls="site-nav">
+        <label for="nav-toggle" class="nav-toggle">Menú</label>
+        <nav id="site-nav" class="nav-panel" aria-label="Menú principal">
             <a href="/es/diagnostico/">Diagnóstico</a>
             <a href="/es/automatizacion/">Automatización</a>
             <a href="/es/socio-de-crecimiento/">Socio de crecimiento</a>
@@ -55,7 +55,6 @@
               <a href="/es/contacto/" aria-current="page">ES</a>
             </span>
           </nav>
-        </details>
       </div>
     </div>
   </header>
