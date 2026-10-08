@@ -122,7 +122,7 @@
 
 ### Enkel automatisering
 - 7 900 kr per flyt (eks. mva.)
-- Inkluderer design, montasje, tester, kort dokumentasjon og 30 minuters opplæring. Én automatisert flyt med no-code-verktøy, for eksempel skjema → CRM → e-post.
+- Inkluderer design, oppsett, testing, kort dokumentasjon og 30 minuters opplæring. Én automatisert flyt med no-code-verktøy, for eksempel skjema → CRM → e-post.
 - Bestill Enkel automatisering
 
 ### Verktøy
@@ -191,7 +191,7 @@
 - **Hvorfor minimum 3 måneder?** Automatiseringene og de første eksperimentene trenger tid for å måles.
 - **Hva skjer når perioden er over?** Alt ligger igjen i dine kontoer, og du får dokumentasjonen.
 - **Hvilke lisenser trenger jeg?** Det avhenger av kartleggingen. Lisenser betales av deg, direkte til leverandøren.
-- **Trenger jeg et CRM?** Jeg anbefaler et CRM i kartleggingen. Det kan være en gratis alternativ hvis det passer.
+- **Trenger jeg et CRM?** Jeg anbefaler et CRM i kartleggingen. Det kan være et gratis alternativ hvis det passer.
 - **Hvordan behandler du dataene mine?** Vi signerer en databehandleravtale før arbeidet starter. Les mer på personvern og databehandleravtale.
 - **Hvordan betaler jeg?** Du får faktura fra MARTINEZ LOZANO INTERNASJONAL HANDEL.
 - Bestill en samtale
@@ -214,14 +214,14 @@
 - Via kontaktskjemaet: navn, e-post, eventuelt bedrift, telefon, hvilke verktøy du bruker, melding, og hvilken pakke du er interessert i. Behandlingsgrunnlaget er samtykke.
 - Formål: Å svare på henvendelsen din og følge opp forespørselen om tjenester fra Kobleverk.
 - Lagring: Opplysningene lagres i inntil 12 måneder hvis det ikke inngås et kundeforhold. Ved kundeforhold gjelder egne avtaler.
-- Databehandlere: Cloudflare (hosting). Dersom et webhook-tjeneste er konfigurert for skjemamottak, behandler den også meldingene.
+- Databehandlere: Cloudflare (hosting). Dersom en webhook-tjeneste er konfigurert for skjemamottak, behandler den også meldingene.
 - Rettigheter: innsyn, retting, sletting, begrensning, dataportabilitet og å trekke tilbake samtykke. Klage til Datatilsynet.
 - Denne nettsiden bruker ikke sporingscookies eller analyseverktøy.
 - Sist oppdatert: 8. oktober 2026.
 
 ### #databehandleravtale
 - Når jeg setter opp automatiseringer for bedriften din, er du behandlingsansvarlig og jeg er databehandler. Vi signerer en databehandleravtale før arbeidet starter.
-- Verktøyene kontrakteres i ditt navn. Jeg jobber med rollebasert tilgang eller invitasjon – aldri med delte passord. Tilgangen fjernes når oppdraget er ferdig.
+- Verktøyene registreres i ditt navn. Jeg jobber med rollebasert tilgang eller invitasjon – aldri med delte passord. Tilgangen fjernes når oppdraget er ferdig.
 - Jeg behandler bare data som er nødvendige for hver flyt. Sensitive personopplysninger (helse, fødselsnummer) inngår ikke i flytene uten skriftlig avtale og forhåndsvurdering.
 - No-code-verktøyene er underleverandører (underdatabehandlere). Liste og lagringssted dokumenteres i databehandleravtalen.
 - Når en flyt bruker AI til å lese kundemeldinger, informeres det i databehandleravtalen, og du bestemmer om det skal aktiveres.
