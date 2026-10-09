@@ -1,51 +1,55 @@
 (() => {
-  const ALLOWED = new Set(["start", "pluss", "engangs-oppsett", "usikker"]);
+  const ALLOWED = new Set([
+    "kartlegging",
+    "enkel-automatisering",
+    "ai-integrasjon-og-vekst",
+    "usikker",
+  ]);
+
   const form = document.getElementById("kontakt-form");
   if (!form) return;
 
-  const select = form.querySelector('[name="pakke"]');
-  const msg = document.getElementById("form-msg");
-  const lang = form.dataset.lang || "nb";
+  const pakkeSelect = form.querySelector('[name="pakke"]');
+  const statusEl = document.getElementById("form-status");
+  const lang = form.dataset.lang === "es" ? "es" : "nb";
 
   const params = new URLSearchParams(window.location.search);
   const pakke = params.get("pakke");
-  if (select) {
-    select.value = ALLOWED.has(pakke) ? pakke : "usikker";
+  if (pakkeSelect) {
+    pakkeSelect.value = ALLOWED.has(pakke) ? pakke : "usikker";
   }
 
-  const copy =
-    lang === "es"
-      ? {
-          ok: "¡Gracias! Respondo en 1 día laborable.",
-          err:
-            'No se pudo enviar el formulario. Escríbeme a <a href="mailto:willynoslo17@gmail.com?subject=Kobleverk">willynoslo17@gmail.com</a>.',
-          sending: "Enviando…",
-        }
-      : {
-          ok: "Takk! Jeg svarer innen 1 virkedag.",
-          err:
-            'Kunne ikke sende skjemaet. Send en e-post til <a href="mailto:willynoslo17@gmail.com?subject=Kobleverk">willynoslo17@gmail.com</a>.',
-          sending: "Sender…",
-        };
+  const msg = {
+    nb: {
+      ok: "Takk! Jeg svarer innen 1 virkedag.",
+      err: 'Noe gikk galt. Send e-post til <a href="mailto:kontakt@mlinternasjonal.no?subject=Kobleverk">kontakt@mlinternasjonal.no</a>.',
+      sending: "Sender…",
+    },
+    es: {
+      ok: "¡Gracias! Respondo en 1 día laborable.",
+      err: 'Algo falló. Envía un correo a <a href="mailto:kontakt@mlinternasjonal.no?subject=Kobleverk">kontakt@mlinternasjonal.no</a>.',
+      sending: "Enviando…",
+    },
+  }[lang];
 
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
-    if (!msg) return;
-
-    msg.hidden = false;
-    msg.className = "form-msg";
-    msg.textContent = copy.sending;
+    if (statusEl) {
+      statusEl.className = "form-status";
+      statusEl.style.display = "block";
+      statusEl.textContent = msg.sending;
+    }
 
     const data = new FormData(form);
     const payload = {
       navn: String(data.get("navn") || "").trim(),
       bedrift: String(data.get("bedrift") || "").trim(),
-      epost: String(data.get("epost") || "").trim(),
+      email: String(data.get("email") || "").trim(),
       telefon: String(data.get("telefon") || "").trim(),
-      nettside: String(data.get("nettside") || "").trim(),
+      verktoy: String(data.get("verktoy") || "").trim(),
       melding: String(data.get("melding") || "").trim(),
       pakke: String(data.get("pakke") || "usikker"),
-      samtykke: data.get("samtykke") === "on" || data.get("samtykke") === "true",
+      consent: data.get("consent") === "on" || data.get("consent") === "true",
       website: String(data.get("website") || ""),
       lang,
     };
@@ -58,18 +62,21 @@
       });
 
       if (res.ok) {
-        msg.className = "form-msg ok";
-        msg.textContent = copy.ok;
         form.reset();
-        if (select) select.value = "usikker";
+        if (pakkeSelect) pakkeSelect.value = "usikker";
+        if (statusEl) {
+          statusEl.className = "form-status is-ok";
+          statusEl.textContent = msg.ok;
+        }
         return;
       }
 
-      msg.className = "form-msg err";
-      msg.innerHTML = copy.err;
+      throw new Error("fail");
     } catch {
-      msg.className = "form-msg err";
-      msg.innerHTML = copy.err;
+      if (statusEl) {
+        statusEl.className = "form-status is-err";
+        statusEl.innerHTML = msg.err;
+      }
     }
   });
 })();

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Personvern – Kobleverk</title>
-  <meta name="description" content="Personvernerklæring for Kobleverk / MARTINEZ LOZANO INTERNASJONAL HANDEL. Hvordan personopplysninger behandles.">
+  <title>Personvern og databehandleravtale – Kobleverk</title>
+  <meta name="description" content="Personvern på kobleverk.pages.dev og hvordan jeg behandler data for deg som databehandler, med databehandleravtale.">
   <link rel="canonical" href="https://kobleverk.pages.dev/personvern/">
   <link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/personvern/">
   <link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/privacidad/">
@@ -12,23 +12,23 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Kobleverk">
   <meta property="og:locale" content="nb_NO">
-  <meta property="og:title" content="Personvern – Kobleverk">
-  <meta property="og:description" content="Personvernerklæring for Kobleverk / MARTINEZ LOZANO INTERNASJONAL HANDEL. Hvordan personopplysninger behandles.">
+  <meta property="og:title" content="Personvern og databehandleravtale – Kobleverk">
+  <meta property="og:description" content="Personvern på denne nettsiden og databehandleravtale når jeg behandler data for deg.">
   <meta property="og:url" content="https://kobleverk.pages.dev/personvern/">
   <meta property="og:image" content="https://kobleverk.pages.dev/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Personvern – Kobleverk">
-  <meta name="twitter:description" content="Personvernerklæring for Kobleverk / MARTINEZ LOZANO INTERNASJONAL HANDEL. Hvordan personopplysninger behandles.">
+  <meta name="twitter:title" content="Personvern og databehandleravtale – Kobleverk">
+  <meta name="twitter:description" content="Personvern og databehandleravtale for Kobleverk.">
   <meta name="twitter:image" content="https://kobleverk.pages.dev/og-image.png">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=2">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Hjem", "item": "https://kobleverk.pages.dev/"},
-      {"@type": "ListItem", "position": 2, "name": "Personvern", "item": "https://kobleverk.pages.dev/personvern/"}
+      { "@type": "ListItem", "position": 1, "name": "Hjem", "item": "https://kobleverk.pages.dev/" },
+      { "@type": "ListItem", "position": 2, "name": "Personvern", "item": "https://kobleverk.pages.dev/personvern/" }
     ]
   }
   </script>
@@ -36,77 +36,79 @@
 <body>
   <a class="skip" href="#innhold">Hopp til innhold</a>
   <header class="site-header">
-    <div class="wrap nav">
-      <a class="brand" href="/">Kobleverk</a>
-          <nav class="nav-links nav-desktop" aria-label="Hovedmeny">
-            <a href="/pakker/">Pakker og priser</a>
-            <a href="/slik-jobber-jeg/">Slik jobber jeg</a>
-            <a href="/arbeid/">Arbeid</a>
+    <div class="wrap header-inner">
+      <div class="header-brand-row">
+        <a class="logo" href="/">Kobleverk</a>
+        <input type="checkbox" id="nav-toggle" class="nav-check" aria-controls="site-nav">
+        <label for="nav-toggle" class="nav-toggle">Meny</label>
+        <nav id="site-nav" class="nav-panel" aria-label="Hovedmeny">
+            <a href="/kartlegging/">Kartlegging</a>
+            <a href="/automatisering/">Automatisering</a>
+            <a href="/vekstpartner/">Vekstpartner</a>
+            <a href="/#priser">Priser</a>
             <a href="/kontakt/#om-meg">Om meg</a>
-            <a class="btn btn-primary" href="/kontakt/">Kontakt</a>
+            <a class="btn" href="/kontakt/">Kontakt</a>
+            <span class="lang-switch" aria-label="Språk">
+              <a href="/personvern/" aria-current="page">NO</a>
+              <span aria-hidden="true">|</span>
+              <a href="/es/privacidad/">ES</a>
+            </span>
           </nav>
-          <div class="lang lang-desktop" aria-label="Språk">
-            <span aria-current="true">NO</span>
-            <a href="/es/privacidad/" lang="es" hreflang="es">ES</a>
-          </div>
-          <details class="nav-menu">
-            <summary class="nav-toggle" aria-label="Meny">Meny</summary>
-            <div class="nav-panel">
-              <nav class="nav-links" aria-label="Hovedmeny">
-            <a href="/pakker/">Pakker og priser</a>
-            <a href="/slik-jobber-jeg/">Slik jobber jeg</a>
-            <a href="/arbeid/">Arbeid</a>
-            <a href="/kontakt/#om-meg">Om meg</a>
-            <a class="btn btn-primary" href="/kontakt/">Kontakt</a>
-          </nav>
-              <div class="lang" aria-label="Språk">
-                <span aria-current="true">NO</span>
-            <a href="/es/privacidad/" lang="es" hreflang="es">ES</a>
-              </div>
-            </div>
-          </details>
+      </div>
     </div>
   </header>
 
   <main id="innhold">
-    <section>
-      <div class="wrap prose">
-        <h1>Personvern</h1>
-        <p class="muted">Sist oppdatert: 8. oktober 2026</p>
+    <section class="hero">
+      <div class="wrap">
+        <h1>Personvern og databehandleravtale</h1>
+        <p class="lede">To deler: personvern på denne nettsiden, og hvordan jeg behandler data for deg som kunde.</p>
+        <p class="muted"><a href="#nettstedet">Personvern på nettsiden</a> · <a href="#databehandleravtale">Databehandleravtale</a></p>
+      </div>
+    </section>
 
-        <h2>Behandlingsansvarlig</h2>
-        <p>MARTINEZ LOZANO INTERNASJONAL HANDEL (enkeltpersonforetak), handelsnavn ML Digital / Kobleverk. Org.nr. 935 407 095 MVA. Norbygata 19, 0187 Oslo. E-post: <a href="mailto:willynoslo17@gmail.com">willynoslo17@gmail.com</a>. Telefon: <a href="tel:+4791290416">+47 912 90 416</a>.</p>
+    <section class="section" id="nettstedet">
+      <div class="wrap">
+        <h2>Personvern på denne nettsiden</h2>
+        <p>Behandlingsansvarlig er MARTINEZ LOZANO INTERNASJONAL HANDEL (enkeltpersonforetak), org.nr. 935 407 095 MVA, Norbygata 19, 0187 Oslo. Kontakt: <a href="mailto:kontakt@mlinternasjonal.no">kontakt@mlinternasjonal.no</a> / <a href="tel:+4791290416">+47 912 90 416</a>.</p>
+        <h3>Hvilke opplysninger samles inn?</h3>
+        <p>Via kontaktskjemaet: navn, e-post, eventuelt bedrift, telefon, hvilke verktøy du bruker, melding, og hvilken pakke du er interessert i. Behandlingsgrunnlaget er samtykke.</p>
+        <h3>Formål</h3>
+        <p>Å svare på henvendelsen din og følge opp forespørselen om tjenester fra Kobleverk.</p>
+        <h3>Lagring</h3>
+        <p>Opplysningene lagres i inntil 12 måneder hvis det ikke inngås et kundeforhold. Ved kundeforhold gjelder egne avtaler.</p>
+        <h3>Databehandlere</h3>
+        <p>Cloudflare (hosting). Dersom en webhook-tjeneste er konfigurert for skjemamottak, behandler den også meldingene.</p>
+        <h3>Dine rettigheter</h3>
+        <p>Du har rett til innsyn, retting, sletting, begrensning, dataportabilitet og å trekke tilbake samtykke. Du kan klage til Datatilsynet.</p>
+        <h3>Informasjonskapsler</h3>
+        <p>Denne nettsiden bruker ikke sporingscookies eller analyseverktøy.</p>
+        <p class="muted">Sist oppdatert: 8. oktober 2026.</p>
+      </div>
+    </section>
 
-        <h2>Hvilke opplysninger samles inn?</h2>
-        <p>Gjennom kontaktskjemaet kan du sende navn, e-post, telefon (valgfritt), bedrift (valgfritt), verktøy/nettside (valgfritt), valgt pakke og melding.</p>
-
-        <h2>Formål og rettslig grunnlag</h2>
-        <p>Opplysningene brukes bare for å svare på henvendelsen din og eventuelt følge opp en samtale eller et tilbud. Rettslig grunnlag er samtykke (GDPR art. 6 (1) a / personopplysningsloven).</p>
-
-        <h2>Lagringstid</h2>
-        <p>Hvis det ikke blir et kundeforhold, slettes eller anonymiseres henvendelser senest etter 12 måneder. Ved avtale følger lagring avtale- og bokføringsregler.</p>
-
-        <h2>Databehandlere</h2>
-        <p>Cloudflare (hosting av nettsiden). Hvis en webhook-tjeneste settes opp for å videresende skjemameldinger, er den også databehandler. Ingen betalingsleverandører brukes på denne siden.</p>
-
-        <h2>Cookies og sporing</h2>
-        <p>Denne nettsiden bruker ikke sporingscookies, analyseverktøy eller markedsføringspiksler.</p>
-
-        <h2>Dine rettigheter</h2>
-        <p>Du kan be om innsyn, retting, sletting, begrensning og dataportabilitet, og du kan trekke samtykket tilbake. Klage kan sendes til Datatilsynet (<a href="https://www.datatilsynet.no/">datatilsynet.no</a>).</p>
-
-        <h2>Kundedata i automatisering</h2>
-        <p>Når jeg setter opp flyter for en kunde, behandles kundens forretningsdata kun for å levere avtalen. Tilganger skal være minst mulige, og du kan trekke tilbake tilgang når som helst.</p>
+    <section class="section section-dark" id="databehandleravtale">
+      <div class="wrap">
+        <h2>Når jeg behandler data for deg</h2>
+        <p>Når jeg setter opp automatiseringer for bedriften din, er du behandlingsansvarlig og jeg er databehandler. Vi signerer en databehandleravtale før arbeidet starter.</p>
+        <ul class="checklist">
+          <li>Verktøyene registreres i ditt navn. Jeg jobber med rollebasert tilgang eller invitasjon – aldri med delte passord. Tilgangen fjernes når oppdraget er ferdig.</li>
+          <li>Jeg behandler bare data som er nødvendige for hver flyt. Sensitive personopplysninger (helse, fødselsnummer) inngår ikke i flytene uten skriftlig avtale og forhåndsvurdering.</li>
+          <li>No-code-verktøyene er underleverandører (underdatabehandlere). Liste og lagringssted dokumenteres i databehandleravtalen.</li>
+        </ul>
+        <!-- TODO Willy: preparar plantilla de databehandleravtale y lista de subencargados por herramienta (ubicación UE/EEE o mecanismo de transferencia). No afirmar ubicación de datos sin confirmarla. -->
+        <p>Når en flyt bruker AI til å lese kundemeldinger, informeres det i databehandleravtalen, og du bestemmer om det skal aktiveres.</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap">
-      <p class="footer-legal">Kobleverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com</p>
+      <p class="legal">Kobleverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no</p>
       <ul class="footer-links">
-        <li><a href="/pakker/">Pakker og priser</a></li>
-        <li><a href="/personvern/">Personvern</a></li>
+        <li><a href="/kartlegging/">Kartlegging</a></li>
+        <li><a href="/vekstpartner/">Vekstpartner</a></li>
+        <li><a href="/personvern/">Personvern og databehandleravtale</a></li>
         <li><a href="https://willymartinez.no/consulting">willymartinez.no/consulting</a></li>
         <li>© 2026</li>
       </ul>

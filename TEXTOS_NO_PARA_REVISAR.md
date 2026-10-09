@@ -1,262 +1,274 @@
-# Tekster NO – til gjennomgang (Gemini)
+# Textos noruegos (bokmål) – borrador para revisión
 
-Alle synlige norske tekster på Kobleverk-nettstedet. Dette er **utkast**. Ikke publiser/annonser før gjennomgang.
-
-URL-base midlertidig: `https://kobleverk.pages.dev`  
-**Alle priser er forslag** – ikke endelig avtale. Domene `.no` er ikke kjøpt.
+> Generado para revisión (p. ej. Gemini) antes de publicar. No anunciar la web hasta que el noruego esté revisado.
 
 ---
 
-## Felles (navigasjon)
+## Navegación (todas las páginas NO)
 
 - Hopp til innhold
-- Kobleverk (merkenavn)
 - Meny
-- Pakker og priser
-- Slik jobber jeg
-- Arbeid
+- Kartlegging
+- Automatisering
+- Vekstpartner
+- Priser
 - Om meg
 - Kontakt
 - NO | ES
 
-## Felles (footer)
+## Footer (todas las páginas NO)
 
-- Kobleverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com
-- Pakker og priser
-- Personvern
-- willymartinez.no/consulting
-- © 2026
+- Kobleverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
+- Kartlegging · Vekstpartner · Personvern og databehandleravtale · willymartinez.no/consulting · © 2026
 
-## Felles (prislapp)
+## Nota de precios (páginas con precios)
 
-- Alle priser er eks. mva.
-- Prisene er forslag
-- Anbefalt for de fleste
-- Forslag (merke)
+- Alle priser er eks. mva. Lisenser til verktøy og eventuelt annonsebudsjett betales av kunden, direkte til leverandøren.
+- Lisenser betales av kunden.
 
 ---
 
 ## Hjem (`/`)
 
-**Title:** Kobleverk – koble verktøy og automatiser arbeidsflyter  
-**Meta description:** Koble skjema, CRM, e-post, ark og WhatsApp slik at arbeidet flyter uten manuell kopiering. Forslag fra 3 490 kr/mnd eks. mva.
+### Meta
+- **title:** Kobleverk – AI-automatisering og vekstmarkedsføring for små bedrifter
+- **description:** Jeg kobler sammen skjema, CRM og e-post med AI og no-code, og tester én vekstidé hver måned. Start med kartlegging til fast pris.
 
-**H1:** Koble verktøyene dine – slik at arbeidet flyter uten kopiering  
-**Subtittel:** Skjema, CRM, e-post, ark og WhatsApp kan snakke sammen. Jeg setter opp flyter for små bedrifter – på norsk og spansk.  
-**CTA:** Se pakker og priser · Bestill en gratis samtale
+### Hero
+- **H1:** Koble sammen verktøyene dine – og bruk tiden på kundene
+- **Subtítulo:** Jeg automatiserer skjema, CRM og e-post med AI og no-code-verktøy, og tester én ny vekstidé hver måned. Start med en kartlegging til fast pris.
+- **CTA:** Start med en kartlegging
+- **CTA:** Bestill en gratis samtale
 
-**Noder (aria-hidden):** Skjema · CRM · E-post · WhatsApp · Flyt
+### Diagrama hero
+- Etiqueta: EKSEMPEL
+- Nodos: Ny henvendelse → CRM → Svar på e-post → Oppfølging → Rapport
+- Alt/sr-only: Eksempel: Ny henvendelse går til CRM, deretter svar på e-post, oppfølging og rapport.
+- aria-label: Eksempel på flyt: Ny henvendelse, CRM, Svar på e-post, Oppfølging, Rapport
 
-### Dette får du
-- Klare koblinger mellom systemene du allerede bruker – skriftlig avtalt før oppstart.
-- **Kartlegging** – Vi går gjennom verktøyene dine og hvor data blir sittende fast i dag.
-- **Flyter som sparer tid** – Når noen sender et skjema, oppdateres CRM, e-post eller ark – uten manuell kopiering.
-- **Dokumentasjon** – Du får en enkel oversikt over hva som er koblet, og hvordan du endrer det senere.
+### Kjenner du deg igjen?
+- Henvendelser blir liggende i innboksen.
+- Samme informasjon skrives inn flere steder.
+- Ingen oppfølging etter første kontakt.
+- Du vet ikke hva som faktisk gir kunder.
 
-### Pakker (forslag)
-- **Start** – 3 490 kr/mnd · + 1 990 kr i oppstart · 2 verktøy · 1 aktiv flyt · Dokumentasjon og enkel support · Se Start
-- **Pluss** – 5 990 kr/mnd · + 2 490 kr i oppstart · Opptil 5 verktøy · Opptil 3 flyter · Dokumentasjon og prioritetssupport · Se Pluss
-- **Engangs oppsett** – 4 990 kr engangspris · 1–2 koblinger · En flyt · Kort veiledning · Se Engangs oppsett
+### Priser
+- Kartlegging — 4 900 kr engangspris — Trekkes fra oppstarten hvis du velger AI-integrasjon og vekst. Kart over verktøyene og 3 anbefalte automatiseringer. — Les mer
+- Enkel automatisering — 7 900 kr per flyt — Én automatisert flyt med no-code-verktøy, testet og dokumentert. — Les mer
+- AI-integrasjon og vekst — Anbefalt for de fleste — 19 900 kr i oppstart + 6 900 kr/mnd — Minimum 3 måneder. Tre automatiseringer, KPI-panel og ett vekstmarkedsføringseksperiment hver måned. — Les mer
 
 ### For hvem
-- Små bedrifter som mister tid på å flytte data mellom systemer.
-- Butikker og netthandlere
-- Tjenesteytere med bookingskjema
-- Frisører, salonger og klinikker
-- Små team som bruker Sheets, CRM og e-post
-- Spansktalende bedrifter i Oslo som vil ha færre manuelle steg
+- Enkeltpersonforetak og små bedrifter med 1–20 ansatte som bruker skjema, e-post og et CRM eller regneark som ikke snakker sammen: klinikker, håndverkere, konsulenter, små nettbutikker, og spansktalende bedrifter i Norge.
 
 ### Hvorfor Kobleverk
-- Fokus på praktiske flyter – ikke tunge IT-prosjekter.
-- Verktøy du allerede har: skjema, CRM, e-post, ark, WhatsApp og liknende.
+- Start i det små: kartlegging til fast pris før du bestemmer deg.
+- Skriftlig omfang og fast pris – ingen timepris som løper.
+- Kun velprøvde no-code-verktøy, og alt settes opp i dine kontoer, så du eier oppsettet.
+- Grunnlegger av Wecrops Perú (byrå for markedsføring og videoproduksjon, 2015–2022), erfaring med markedsføring siden 2015: automatiseringen kobles til det som skaffer kunder.
 - Jeg jobber på spansk og engelsk, og på norsk med kvalitetssikrede tekster.
-- Fast pris og skriftlig avtalt omfang før oppstart.
-- Du eier tilgangene dine; jeg ber aldri om passord – bare sikre roller eller API-nøkler du kontrollerer.
+- Databehandleravtale med alle kunder.
 
-### Slik jobber jeg (kort)
-- **Gratis samtale** – Vi kartlegger verktøyene dine – 30 minutter.
-- **Fast tilbud** – Skriftlig omfang og pris før oppstart.
-- **Oppsett** – Jeg kobler systemene og tester flytene.
-- **Overlevering** – Du får dokumentasjon og vet hvordan det fungerer.
-- Les hele prosessen
+### Slik jobber jeg
+- Kartlegging → Oppsett → Måling → Ett eksperiment i måneden
+- sr-only: Arbeidsmåte: Kartlegging, Oppsett, Måling, Ett eksperiment i måneden.
 
 ### Andre tjenester fra ML Digital
-- Snuttverk – Korte videoer og innlegg
-- Hallobot – Chatbot for bedrifter
-- Klikklokal – Lokale annonser
-- Synlig14 – Nettside på 14 dager
-- Rådgivning – Internasjonal handel
+- Rådgivning i internasjonal handel
+- (comentado, no visible) Snuttverk – innhold og korte videoer; Synlig14 – nettside og AI-synlighetssjekk; Hallobot – chatbot; Klikklokal – annonser
 
 ---
 
-## Pakker og priser (`/pakker/`)
+## Kartlegging (`/kartlegging/`)
 
-**Title:** Pakker og priser – Kobleverk | forslag fra 3 490 kr/mnd eks. mva.  
-**Meta description:** Start: 2 verktøy + 1 flyt. Pluss for flere koblinger. Engangs oppsett når du trenger én løsning. Alle priser er forslag eks. mva.
+### Meta
+- **title:** Kartlegging – Kobleverk
+- **description:** Kartlegging til fast pris: gjennomgang av kundereise og verktøy, 3 anbefalte automatiseringer og fast pris på gjennomføring.
 
-**H1:** Pakker og priser  
-**Intro:** Koble systemene dine med klart omfang. Velg Start for én solid flyt, Pluss for flere, eller Engangs oppsett når du trenger en engangsløsning.
+### Contenido
+- Etiqueta: Kartlegging
+- **H1:** Kartlegging til fast pris
+- En gjennomgang av hvordan kunder finner deg og tar kontakt, og hvilke verktøy du bruker i dag – så du vet hva som bør automatiseres først.
+- 4 900 kr engangspris (eks. mva.)
+- Prisen for kartleggingen trekkes fra oppstarten hvis du velger AI-integrasjon og vekst.
+- Bestill kartlegging
 
-### Start
-- Dette får du: 2 verktøy koblet sammen · 1 aktiv automatiseringsflyt · Kartlegging og oppsett · Enkel dokumentasjon · E-postsupport for avtalt flyt
-- Bestill en gratis samtale
+### Slik foregår det
+- STEG 1: Gratis samtale (30 min). Jeg avklarer om kartleggingen passer, og hva du ønsker å oppnå.
+- STEG 2: Spørreskjema og tilgang til å se verktøyene. Lesetilgang – aldri passord på e-post.
+- STEG 3: Arbeidsøkt (ca. 1–2 timer, video eller i Oslo). Jeg går gjennom kundereisen og verktøyene sammen med deg.
+- STEG 4: Du får: et kart over kundereisen og verktøyene, 3 anbefalte automatiseringer med forventet arbeid, og en fast pris på å gjennomføre dem.
+- Start med en gratis samtale
 
-### Pluss
-- Dette får du: Opptil 5 verktøy · Opptil 3 aktive flyter · Kartlegging og oppsett · Dokumentasjon · Prioritetssupport for avtalte flyter
-- Bestill en gratis samtale
+---
 
-### Engangs oppsett
-- Dette får du: Oppsett av 1–2 koblinger · 1 flyt for ett konkret behov · Kort overlevering og veiledning
-- Bestill en gratis samtale
+## Automatisering (`/automatisering/`)
+
+### Meta
+- **title:** Automatisering – Kobleverk
+- **description:** Automatiser skjema, CRM og e-post med no-code og AI. Eksempler på flyter og Enkel automatisering til fast pris per flyt.
+
+### Intro
+- **H1:** Automatisering med no-code og AI
+- En automatisering er en regel som flytter informasjon mellom verktøyene dine uten at du gjør det manuelt. AI kan hjelpe med å sortere meldinger, oppsummere, lage utkast til svar som du godkjenner, og oversette mellom norsk, spansk og engelsk.
 
 ### Eksempler på flyter
-- Nytt skjemasvar → rad i Sheets + e-post til deg
-- Ny lead i CRM → velkomstmelding på e-post eller WhatsApp
-- Bestilling → varsel i Slack eller e-post + oppdatering i ark
+- Illustrasjoner – ikke kundecaser.
+1. **EKSEMPEL** Skjema til CRM — Skjema → CRM → E-post → Varsel — Skjema på nettsiden → CRM → automatisk bekreftelse på e-post → varsel til deg.
+2. **EKSEMPEL** AI-utkast til svar — Henvendelse → AI → Utkast → Du godkjenner — Ny henvendelse → AI sorterer og oppsummerer → utkast til svar som du godkjenner.
+3. **EKSEMPEL** Oppfølging etter chat — Chatbot → CRM → Oppfølging — Henvendelse fra chatboten → CRM → oppfølging etter 3 dager hvis ingen svar.
+4. **EKSEMPEL** Bookingpåminnelse — Booking → Påminnelse — Booking → påminnelse på e-post dagen før.
+5. **EKSEMPEL** Tilbakemelding — Ny kunde → Levering → Tilbakemelding — Ny kunde → forespørsel om tilbakemelding etter levering.
+6. **EKSEMPEL** Ukentlig rapport — Henvendelser → Kilder → Regneark — Ukentlig rapport: nye henvendelser og hvor de kom fra, samlet i ett regneark.
 
-### Ikke inkludert
-- Lisenskostnader for tredjepartsverktøy (Make, Zapier, CRM o.l.)
-- Utvikling av egne apper eller nettsteder
-- Døgnkontinuerlig overvåking uten avtale
-- Datamigrering av store historiske arkiv
+### Enkel automatisering
+- 7 900 kr per flyt (eks. mva.)
+- Inkluderer design, oppsett, testing, kort dokumentasjon og 30 minuters opplæring. Én automatisert flyt med no-code-verktøy, for eksempel skjema → CRM → e-post.
+- Bestill Enkel automatisering
 
 ### Verktøy
-Vi bruker det som passer stacken din – ofte Make, Zapier, native integrasjoner eller enkle skript. Plattform velges i tilbudet.
+- Jeg bruker etablerte no-code-verktøy, for eksempel Make, Zapier eller n8n, og CRM-et du allerede har. Verktøyene settes opp i dine kontoer, og lisensene betales av deg.
 
-### Ofte stilte spørsmål
-1. **Hvilke verktøy kan du koble?** Typisk skjema (Typeform, Google Forms, Tally), CRM, e-post (Gmail, Outlook), Google Sheets / Excel, WhatsApp Business, Slack og liknende. Vi avklarer stacken i samtalen.
-2. **Må jeg bytte systemene mine?** Nei. Målet er å koble det du allerede bruker, så langt det er teknisk mulig.
-3. **Hvordan får du tilgang?** Via roller, API-nøkler eller OAuth som du kontrollerer. Jeg ber aldri om passordet ditt.
-4. **Er prisene endelige?** Nei. Prisene på siden er forslag. Endelig pris står i det skriftlige tilbudet.
-5. **Hvordan betaler jeg?** Du får faktura fra MARTINEZ LOZANO INTERNASJONAL HANDEL.
+### Hva jeg ikke gjør
+- Skreddersydd programvare
+- Egne AI-agenter
+- Integrasjoner mot ERP- eller regnskapssystemer
+- Automatisering av beslutninger som krever et menneske (f.eks. kreditt, helse, ansettelser)
 
----
-
-## Slik jobber jeg (`/slik-jobber-jeg/`)
-
-**Title:** Slik jobber jeg – Kobleverk  
-**Meta description:** Fra gratis samtale til overlevering: hvordan Kobleverk setter opp koblinger og automatisering.
-
-**H1:** Slik jobber jeg  
-**Lead:** En tydelig prosess uten overraskelser. Tidsplanen avtales i tilbudet.
-
-1. **Gratis samtale** – 30 minutter – video eller personlig i Oslo. Vi går gjennom verktøyene dine og hvor tiden går tapt.
-2. **Fast tilbud** – Skriftlig omfang, hvilke systemer som kobles, og pris før oppstart.
-3. **Tilganger** – Du gir sikre roller eller nøkler. Ingen passord sendes på e-post.
-4. **Oppsett og test** – Jeg bygger flytene, tester med ekte eller dummy-data, og retter feil.
-5. **Du godkjenner** – Vi går gjennom resultatet før det går «live».
-6. **Overlevering** – Kort dokumentasjon: hva som er koblet, og hvordan du endrer det.
-7. **Drift (Start / Pluss)** – Ved månedsavtaler følger avtalt support for flytene i pakken.
-
-**CTA:** Bestill en gratis samtale
+### Regla IA
+- AI lager utkast – et menneske godkjenner det som sendes til kunder, med mindre du skriftlig har valgt noe annet.
 
 ---
 
-## Arbeid (`/arbeid/`)
+## Vekstpartner (`/vekstpartner/`)
 
-**Title:** Arbeid – Kobleverk  
-**Meta description:** Eksempler på arbeid fra Kobleverk. Kommer snart.
+### Meta
+- **title:** Vekstpartner – AI-integrasjon og vekst | Kobleverk
+- **description:** AI-integrasjon og vekst: 19 900 kr + 6 900 kr/mnd eks. mva. Tre automatiseringer, KPI-panel og ett vekstmarkedsføringseksperiment hver måned. Minimum 3 måneder.
 
-**H1:** Arbeid  
-**Lead:** Kommer snart  
-Her kommer eksempler på koblinger og flyter når det finnes materiale å vise.
+### Hero
+- Anbefalt for de fleste
+- **H1:** AI-integrasjon og vekst
+- Hovedpakken: tre automatiseringer, et enkelt KPI-panel og ett målt vekstmarkedsføringseksperiment hver måned.
+- 19 900 kr i oppstart + 6 900 kr/mnd
+- Minimum 3 måneder
+- Bestill AI-integrasjon og vekst
 
----
+### I oppstarten
+- 3 automatiseringer (fra kartleggingen)
+- Et enkelt KPI-panel (for eksempel i et regneark eller et gratis rapporteringsverktøy)
+- Signering av databehandleravtale
 
-## Kontakt + Om meg (`/kontakt/`)
+### Hver måned
+- Vedlikehold av flytene
+- 1 eksperiment i vekstmarkedsføring
+- Månedlig rapport
 
-**Title:** Kontakt og om meg – Kobleverk  
-**Meta description:** Bestill en gratis samtale med Willy Edison Martínez Lozano. Kobleverk – automatisering for små bedrifter i Oslo.
+### Hva er vekstmarkedsføring?
+- En metode med små, målte eksperimenter. Hver måned:
+1. Idé og hypotese («Hvis vi endrer X, får vi flere Y»).
+2. Test i en begrenset periode.
+3. Måling i KPI-panelet.
+4. Beholde, justere eller droppe.
 
-**H1:** Kontakt  
-**Lead:** Fortell litt om verktøyene dine, så avtaler jeg en gratis samtale.
+### Eksempler på eksperimenter (EKSEMPEL)
+- Nytt tilbud på landingssiden
+- Kortere skjema
+- Oppfølgings-e-post
+- Annonse på spansk til spansktalende kunder
+- Ny tekst på knappen
+- Tilbud til tidligere kunder
 
-- Telefon: +47 912 90 416
-- E-post: willynoslo17@gmail.com
-- Adresse: Norbygata 19, 0187 Oslo, Norge
+### Frase de honestidad
+- Ikke alle eksperimenter virker – det er derfor vi måler. Du får vite hva som fungerte og hva som ikke gjorde det.
 
-### Skjema (labels)
-- Navn
-- Bedrift (valgfritt)
-- E-post
-- Telefon (valgfritt)
-- Verktøy du bruker (valgfritt)
-- Pakke: Start · Pluss · Engangs oppsett · Usikker
-- Melding
-- Jeg samtykker til at Kobleverk lagrer opplysningene mine for å svare på henvendelsen. Les personvernerklæringen.
-- Send
+### Ikke inkludert
+- Lisenser til verktøy (betales av kunden)
+- Annonsebudsjett (betales av kunden direkte til plattformen)
+- Nye nettsider
+- Videoproduksjon
 
-### form.js (nb)
-- Sender…
-- Takk! Jeg svarer innen 1 virkedag.
-- Kunne ikke sende skjemaet. Send en e-post til willynoslo17@gmail.com.
-
-### Om meg
-**H2:** Om meg  
-**Alt-tekst bilde:** Willy Edison Martínez Lozano – plassholderbilde
-
-Jeg heter Willy Edison Martínez Lozano og bor i Oslo. Kobleverk er en del av ML Digital.
-
-Fra 2015 til 2022 jobbet jeg med markedsføring og videoproduksjon hos Wecrops Perú. Jeg har også sju diplomer fra Toulouse Lautrec (2019–2021).
-
-Jeg hjelper små bedrifter med å koble verktøyene sine, slik at mindre tid går til manuell kopiering.
-
-Jeg jobber på spansk og engelsk, og på norsk med kvalitetssikrede tekster.
-
-Andre tjenester fra ML Digital: Snuttverk, Hallobot, Klikklokal, Synlig14 og rådgivning i internasjonal handel
+### FAQ
+- **Hvorfor minimum 3 måneder?** Automatiseringene og de første eksperimentene trenger tid for å måles.
+- **Hva skjer når perioden er over?** Alt ligger igjen i dine kontoer, og du får dokumentasjonen.
+- **Hvilke lisenser trenger jeg?** Det avhenger av kartleggingen. Lisenser betales av deg, direkte til leverandøren.
+- **Trenger jeg et CRM?** Jeg anbefaler et CRM i kartleggingen. Det kan være et gratis alternativ hvis det passer.
+- **Hvordan behandler du dataene mine?** Vi signerer en databehandleravtale før arbeidet starter. Les mer på personvern og databehandleravtale.
+- **Hvordan betaler jeg?** Du får faktura fra MARTINEZ LOZANO INTERNASJONAL HANDEL.
+- Bestill en samtale
 
 ---
 
 ## Personvern (`/personvern/`)
 
-**Title:** Personvern – Kobleverk  
-**Meta description:** Personvernerklæring for Kobleverk / MARTINEZ LOZANO INTERNASJONAL HANDEL. Hvordan personopplysninger behandles.
+### Meta
+- **title:** Personvern og databehandleravtale – Kobleverk
+- **description:** Personvern på kobleverk.pages.dev og hvordan jeg behandler data for deg som databehandler, med databehandleravtale.
 
-**H1:** Personvern  
-Sist oppdatert: 8. oktober 2026
+### Intro
+- **H1:** Personvern og databehandleravtale
+- To deler: personvern på denne nettsiden, og hvordan jeg behandler data for deg som kunde.
+- Personvern på nettsiden · Databehandleravtale
 
-**Behandlingsansvarlig**  
-MARTINEZ LOZANO INTERNASJONAL HANDEL (enkeltpersonforetak), handelsnavn ML Digital / Kobleverk. Org.nr. 935 407 095 MVA. Norbygata 19, 0187 Oslo. E-post: willynoslo17@gmail.com. Telefon: +47 912 90 416.
+### #nettstedet
+- Behandlingsansvarlig er MARTINEZ LOZANO INTERNASJONAL HANDEL (enkeltpersonforetak), org.nr. 935 407 095 MVA, Norbygata 19, 0187 Oslo.
+- Via kontaktskjemaet: navn, e-post, eventuelt bedrift, telefon, hvilke verktøy du bruker, melding, og hvilken pakke du er interessert i. Behandlingsgrunnlaget er samtykke.
+- Formål: Å svare på henvendelsen din og følge opp forespørselen om tjenester fra Kobleverk.
+- Lagring: Opplysningene lagres i inntil 12 måneder hvis det ikke inngås et kundeforhold. Ved kundeforhold gjelder egne avtaler.
+- Databehandlere: Cloudflare (hosting). Dersom en webhook-tjeneste er konfigurert for skjemamottak, behandler den også meldingene.
+- Rettigheter: innsyn, retting, sletting, begrensning, dataportabilitet og å trekke tilbake samtykke. Klage til Datatilsynet.
+- Denne nettsiden bruker ikke sporingscookies eller analyseverktøy.
+- Sist oppdatert: 8. oktober 2026.
 
-**Hvilke opplysninger samles inn?**  
-Gjennom kontaktskjemaet kan du sende navn, e-post, telefon (valgfritt), bedrift (valgfritt), verktøy/nettside (valgfritt), valgt pakke og melding.
-
-**Formål og rettslig grunnlag**  
-Opplysningene brukes bare for å svare på henvendelsen din og eventuelt følge opp en samtale eller et tilbud. Rettslig grunnlag er samtykke (GDPR art. 6 (1) a / personopplysningsloven).
-
-**Lagringstid**  
-Hvis det ikke blir et kundeforhold, slettes eller anonymiseres henvendelser senest etter 12 måneder. Ved avtale følger lagring avtale- og bokføringsregler.
-
-**Databehandlere**  
-Cloudflare (hosting av nettsiden). Hvis en webhook-tjeneste settes opp for å videresende skjemameldinger, er den også databehandler. Ingen betalingsleverandører brukes på denne siden.
-
-**Cookies og sporing**  
-Denne nettsiden bruker ikke sporingscookies, analyseverktøy eller markedsføringspiksler.
-
-**Dine rettigheter**  
-Du kan be om innsyn, retting, sletting, begrensning og dataportabilitet, og du kan trekke samtykket tilbake. Klage kan sendes til Datatilsynet (datatilsynet.no).
-
-**Kundedata i automatisering**  
-Når jeg setter opp flyter for en kunde, behandles kundens forretningsdata kun for å levere avtalen. Tilganger skal være minst mulige, og du kan trekke tilbake tilgang når som helst.
+### #databehandleravtale
+- Når jeg setter opp automatiseringer for bedriften din, er du behandlingsansvarlig og jeg er databehandler. Vi signerer en databehandleravtale før arbeidet starter.
+- Verktøyene registreres i ditt navn. Jeg jobber med rollebasert tilgang eller invitasjon – aldri med delte passord. Tilgangen fjernes når oppdraget er ferdig.
+- Jeg behandler bare data som er nødvendige for hver flyt. Sensitive personopplysninger (helse, fødselsnummer) inngår ikke i flytene uten skriftlig avtale og forhåndsvurdering.
+- No-code-verktøyene er underleverandører (underdatabehandlere). Liste og lagringssted dokumenteres i databehandleravtalen.
+- Når en flyt bruker AI til å lese kundemeldinger, informeres det i databehandleravtalen, og du bestemmer om det skal aktiveres.
 
 ---
 
-## 404 (`/404.html`)
+## Kontakt (`/kontakt/`)
 
-- 404
-- Siden finnes ikke.
-- Hjem · Pakker
-- (ES-del også på samme side: La página no existe. · Inicio · Paquetes)
+### Meta
+- **title:** Kontakt og om meg – Kobleverk
+- **description:** Kontakt Willy Edison Martínez Lozano om kartlegging, automatisering eller AI-integrasjon og vekst. Gratis samtale.
+
+### Formulario
+- **H1:** Kontakt
+- Fortell kort om bedriften og hva du ønsker hjelp til. Jeg svarer innen 1 virkedag.
+- Ikke send passord eller sensitive opplysninger i skjemaet.
+- Labels: Navn *; Bedrift; E-post *; Telefon; Hvilke verktøy bruker du i dag?; Pakke; Melding *
+- Placeholder verktoy: f.eks. nettside, Gmail, regneark
+- Opciones pakke: Kartlegging; Enkel automatisering; AI-integrasjon og vekst; Usikker
+- Samtykke: Jeg samtykker til at opplysningene brukes for å svare på henvendelsen. Se personvern.
+- Botón: Send
+- Dirección / teléfono / email visibles
+
+### Mensajes form.js (nb)
+- Sender…
+- Takk! Jeg svarer innen 1 virkedag.
+- Noe gikk galt. Send e-post til kontakt@mlinternasjonal.no.
+
+### Om meg
+- (Sin foto de perfil en esta versión.)
+- Jeg heter Willy Edison Martínez Lozano. Firmaet mitt er registrert i Oslo. Jeg er grunnlegger av Wecrops Perú (byrå for markedsføring og videoproduksjon, Chimbote, 2015–2022), med erfaring innen markedsføring siden 2015. Jeg har 7 diplomer fra Toulouse Lautrec (2019–2021).
+- Jeg kombinerer markedsføring med no-code-automatisering for små bedrifter.
+- Jeg jobber på spansk og engelsk, og på norsk med kvalitetssikrede tekster.
+- Kobleverk er en del av ML Digital.
+- Rådgivning i internasjonal handel
 
 ---
 
-## OG-bilde (tekst)
+## 404
 
-- Kobleverk
-- Koble verktøy og automatiser arbeidsflyter for små bedrifter
-- ML Digital · Oslo · kobleverk.pages.dev
+- Siden finnes ikke
+- Gå til Hjem eller Kartlegging.
+- (ES) Página no encontrada / Ve a Inicio o Diagnóstico.
 
-## Favicon
+---
 
-- Aria-label: Kobleverk
-- Bokstav: K
+## Favicon / OG
+
+- Favicon aria-label: Kobleverk
+- og-image texto: Kobleverk – AI-automatisering og vekstmarkedsføring for små bedrifter

@@ -1,90 +1,75 @@
 # Kobleverk
 
-Nettsted for **Kobleverk** – koble forretningsverktøy og automatiser arbeidsflyter for små bedrifter i Norge.  
-Kobleverk er en del av **ML Digital** (MARTINEZ LOZANO INTERNASJONAL HANDEL, Org.nr. 935 407 095 MVA).
+Sitio estático de **Kobleverk** (parte de ML Digital): AI-automatisering og vekstmarkedsføring for små bedrifter i Norge.
 
-Statisk HTML + CSS. Ingen build-steg. Hosting: **Cloudflare Pages** (gratis).
+- URL temporal: `https://kobleverk.pages.dev`
+- Stack: HTML + CSS + JS mínimo (sin framework ni build)
+- Idiomas: bokmål (`/`) y español (`/es/`)
+- Hosting previsto: Cloudflare Pages
 
-**Midlertidig URL:** `https://kobleverk.pages.dev`  
-**Domene kobleverk.no:** ikke kjøpt ennå.
+## Estructura
 
-> Norske tekster er utkast. Se `TEXTOS_NO_PARA_REVISAR.md` før publisering. Ikke annonser nettsiden før norsk er gjennomgått.  
-> Alle priser på siden er **forslag** – ikke endelig avtale.
+| Ruta NO | Ruta ES |
+|---|---|
+| `/` | `/es/` |
+| `/kartlegging/` | `/es/diagnostico/` |
+| `/automatisering/` | `/es/automatizacion/` |
+| `/vekstpartner/` | `/es/socio-de-crecimiento/` |
+| `/personvern/` | `/es/privacidad/` |
+| `/kontakt/` | `/es/contacto/` |
 
-## Stack
+## Desarrollo local
 
-- HTML + `styles.css` + `form.js` (vanilla, `defer`)
-- Meny uten JS (`<details>`)
-- Cloudflare Pages Function: `functions/api/kontakt.js`
-- Base-URL i `site.config.json` + manuelt skript `scripts/set-base-url.mjs`
-
-## Lokal forhåndsvisning
-
-```bash
-npx --yes serve -l 4173 .
-# eller: python3 -m http.server 4173
-```
-
-Åpne `http://localhost:4173/`.
-
-Bytte base-URL (når eget domene er kjøpt):
+Sirve la raíz del repo con cualquier servidor estático, por ejemplo:
 
 ```bash
-node scripts/set-base-url.mjs https://eksempel.no
+npx --yes serve .
 ```
 
-## Cloudflare Pages – oppsett
+La Function de contacto (`functions/api/kontakt.js`) solo corre en Cloudflare Pages. Sin `KONTAKT_WEBHOOK_URL`, responde `503` y el frontend muestra el `mailto` de respaldo.
 
-### Alternativ A: Dashboard (anbefalt)
+## Cambiar la URL base
 
-1. Gå til [Cloudflare Dashboard](https://dash.cloudflare.com/) → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
-2. Velg repoet `willynoslo17/kobleverk`.
-3. Prosjektnavn: `kobleverk` (gir `https://kobleverk.pages.dev`).
-4. **Build command:** tom (la stå blank).
-5. **Build output directory:** `/` (eller `.` / la stå som rot).
-6. Deploy.
-7. Hvis `kobleverk.pages.dev` allerede er opptatt: velg et annet prosjektnavn (f.eks. `kobleverk-oslo`), oppdater URL med  
-   `node scripts/set-base-url.mjs https://<nytt-navn>.pages.dev` og push.
+La URL canónica vive en `site.config.json` (`BASE_URL`). Enlaces internos usan rutas relativas a la raíz (`/kartlegging/`). Para actualizar canonical, og:url, hreflang, sitemap, robots y JSON-LD:
 
-### Alternativ B: Wrangler
+```bash
+node scripts/set-base-url.mjs https://kobleverk.no
+```
+
+## Deploy en Cloudflare Pages
+
+### Opción A – Connect to Git (recomendado)
+
+1. Cloudflare Dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
+2. Autoriza GitHub y elige el repo `willynoslo17/kobleverk`.
+3. Proyecto: `kobleverk`
+4. Production branch: `main`
+5. Build command: *(vacío)*
+6. Build output directory: `/`
+7. Guarda. La web se publica cuando se haga merge del PR a `main`.
+8. Si `kobleverk.pages.dev` ya está ocupado, elige otro nombre de proyecto y ejecuta:
+   `node scripts/set-base-url.mjs https://<nuevo-nombre>.pages.dev`
+
+### Opción B – Wrangler
 
 ```bash
 npx wrangler pages deploy . --project-name kobleverk
 ```
 
-### Kontaktskjema (webhook)
+### Webhook del formulario (secreto)
 
-Functionen `POST /api/kontakt` videresender lead som JSON til `KONTAKT_WEBHOOK_URL`.  
-Hvis variabelen mangler, returneres `503` og frontenden viser `mailto:`-fallback.
-
-Willy velger mottaker (f.eks. Make-webhook). Ingen nøkler i repoet.
+Willy decide el destino (p. ej. un webhook de Make). No hay claves en el repo. Configura:
 
 ```bash
-npx wrangler pages secret put KONTAKT_WEBHOOK_URL --project-name kobleverk
+wrangler pages secret put KONTAKT_WEBHOOK_URL --project-name kobleverk
 ```
 
-Payload inkluderer `source: "kobleverk"`, `lang` (`nb`/`es`) og `timestamp`.
+## Textos noruegos
 
-## Priser (eks. mva.) – alle er forslag
+`TEXTOS_NO_PARA_REVISAR.md` recoge todos los textos en bokmål para revisión (p. ej. con Gemini) antes de publicar.
 
-| Pakke | Pris | Status |
-|-------|------|--------|
-| Start | 3 490 kr/mnd + 1 990 kr oppstart | Forslag (TODO i HTML) |
-| Pluss | 5 990 kr/mnd + 2 490 kr oppstart | Forslag (TODO i HTML) |
-| Engangs oppsett | 4 990 kr engang | Forslag (TODO i HTML) |
+## Notas
 
-## Struktur
-
-Se rotmappen: `/`, `/pakker/`, `/slik-jobber-jeg/`, `/arbeid/`, `/kontakt/`, `/personvern/` og speil i `/es/`.
-
-## TODO (Willy)
-
-- Ekte foto (`img/willy.webp`)
-- Bekrefte alle priser (Start, Pluss, Engangs oppsett)
-- Bekrefte prefererte plattformer (Make / Zapier / native)
-- Eksempler til Arbeid (når det finnes materiale å vise)
-- Eksakte diplomititler (Toulouse Lautrec)
-- Betalingsfrister og oppsigelsesvarsel
-- `KONTAKT_WEBHOOK_URL`
-- Bytt til eget .no-domene når det er kjøpt (ikke kjøpt ennå)
-- Gjennomgang av norsk med Gemini (`TEXTOS_NO_PARA_REVISAR.md`)
+- Sin Netlify, sin píxeles/analítica, sin embeds externos.
+- Precios de Kartlegging y Enkel automatisering: propuestas (ver comentarios TODO en HTML).
+- AI-integrasjon og vekst: aprobado (19 900 + 6 900/mnd, mínimo 3 meses).

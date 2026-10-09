@@ -1,7 +1,7 @@
-const ALLOWED_PAKKER = new Set([
-  "start",
-  "pluss",
-  "engangs-oppsett",
+const ALLOWED_PAKKE = new Set([
+  "kartlegging",
+  "enkel-automatisering",
+  "ai-integrasjon-og-vekst",
   "usikker",
 ]);
 
@@ -18,9 +18,7 @@ function json(status, body) {
 }
 
 function clip(value, max) {
-  return String(value || "")
-    .trim()
-    .slice(0, max);
+  return String(value || "").trim().slice(0, max);
 }
 
 export async function onRequest(context) {
@@ -38,17 +36,23 @@ export async function onRequest(context) {
   }
 
   const navn = clip(body.navn, 120);
-  const epost = clip(body.epost, 200).toLowerCase();
-  const pakke = clip(body.pakke, 40);
-  const honeypot = clip(body.website, 10);
-  const samtykke = body.samtykke === true;
+  const email = clip(body.email, 200).toLowerCase();
+  const bedrift = clip(body.bedrift, 160);
+  const telefon = clip(body.telefon, 40);
+  const verktoy = clip(body.verktoy, 300);
+  const melding = clip(body.melding, 4000);
+  const pakke = clip(body.pakke, 64);
   const lang = body.lang === "es" ? "es" : "nb";
+  const website = clip(body.website, 200);
+  const consent = body.consent === true;
 
-  if (honeypot) {
+  if (!navn || !EMAIL_RE.test(email) || !consent) {
+    return json(400, { ok: false, error: "validation" });
+  }
+  if (website) {
     return json(200, { ok: true });
   }
-
-  if (!navn || !EMAIL_RE.test(epost) || !samtykke || !ALLOWED_PAKKER.has(pakke)) {
+  if (!ALLOWED_PAKKE.has(pakke)) {
     return json(400, { ok: false, error: "validation" });
   }
 
@@ -62,11 +66,11 @@ export async function onRequest(context) {
     lang,
     timestamp: new Date().toISOString(),
     navn,
-    bedrift: clip(body.bedrift, 160),
-    epost,
-    telefon: clip(body.telefon, 40),
-    nettside: clip(body.nettside, 200),
-    melding: clip(body.melding, 4000),
+    bedrift,
+    email,
+    telefon,
+    verktoy,
+    melding,
     pakke,
   };
 
@@ -76,17 +80,17 @@ export async function onRequest(context) {
   try {
     const res = await fetch(webhook, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify(payload),
       signal: controller.signal,
     });
-    clearTimeout(timer);
     if (!res.ok) {
       return json(502, { ok: false, error: "upstream" });
     }
     return json(200, { ok: true });
   } catch {
-    clearTimeout(timer);
     return json(502, { ok: false, error: "upstream" });
+  } finally {
+    clearTimeout(timer);
   }
 }

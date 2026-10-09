@@ -8,28 +8,46 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/"/>
   </url>
   <url>
-    <loc>https://kobleverk.pages.dev/pakker/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/pakker/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/paquetes/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/pakker/"/>
+    <loc>https://kobleverk.pages.dev/es/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/"/>
   </url>
   <url>
-    <loc>https://kobleverk.pages.dev/slik-jobber-jeg/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/slik-jobber-jeg/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/como-trabajo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/slik-jobber-jeg/"/>
+    <loc>https://kobleverk.pages.dev/kartlegging/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/diagnostico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/kartlegging/"/>
   </url>
   <url>
-    <loc>https://kobleverk.pages.dev/arbeid/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/arbeid/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/trabajos/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/arbeid/"/>
+    <loc>https://kobleverk.pages.dev/es/diagnostico/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/diagnostico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/kartlegging/"/>
   </url>
   <url>
-    <loc>https://kobleverk.pages.dev/kontakt/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/kontakt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/contacto/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/kontakt/"/>
+    <loc>https://kobleverk.pages.dev/automatisering/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/automatizacion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/automatisering/"/>
+  </url>
+  <url>
+    <loc>https://kobleverk.pages.dev/es/automatizacion/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/automatizacion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/automatisering/"/>
+  </url>
+  <url>
+    <loc>https://kobleverk.pages.dev/vekstpartner/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/socio-de-crecimiento/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/vekstpartner/"/>
+  </url>
+  <url>
+    <loc>https://kobleverk.pages.dev/es/socio-de-crecimiento/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/socio-de-crecimiento/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/vekstpartner/"/>
   </url>
   <url>
     <loc>https://kobleverk.pages.dev/personvern/</loc>
@@ -38,39 +56,21 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/personvern/"/>
   </url>
   <url>
-    <loc>https://kobleverk.pages.dev/es/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/"/>
+    <loc>https://kobleverk.pages.dev/es/privacidad/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/personvern/"/>
   </url>
   <url>
-    <loc>https://kobleverk.pages.dev/es/paquetes/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/pakker/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/paquetes/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/pakker/"/>
-  </url>
-  <url>
-    <loc>https://kobleverk.pages.dev/es/como-trabajo/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/slik-jobber-jeg/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/como-trabajo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/slik-jobber-jeg/"/>
-  </url>
-  <url>
-    <loc>https://kobleverk.pages.dev/es/trabajos/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/arbeid/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/trabajos/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/arbeid/"/>
+    <loc>https://kobleverk.pages.dev/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/kontakt/"/>
   </url>
   <url>
     <loc>https://kobleverk.pages.dev/es/contacto/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/kontakt/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/contacto/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/kontakt/"/>
-  </url>
-  <url>
-    <loc>https://kobleverk.pages.dev/es/privacidad/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.pages.dev/personvern/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.pages.dev/es/privacidad/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.pages.dev/personvern/"/>
   </url>
 </urlset>
