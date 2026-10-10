@@ -32,7 +32,8 @@
     ]
   }
   </script>
-  <script src="/form.js?v=2" defer></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <script src="/form.js?v=3" defer></script>
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -106,11 +107,11 @@
             <input type="checkbox" name="consent" required>
             <span>Consiento que estos datos se usen para responder a la consulta. Ver <a href="/es/privacidad/">privacidad</a>.</span>
           </label>
-          <div class="hp" aria-hidden="true">
-            <label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
-          </div>
+          <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden">
+          <input type="hidden" name="ts">
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAFTHhaOtzzj9eenB" data-language="nb"></div>
           <button class="btn" type="submit">Enviar</button>
-          <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
         </form>
 
         <div class="contact-aside">
