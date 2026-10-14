@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="379" height="98" viewBox="51 151 379 98">
+  <g>
+    
+  <circle cx="75" cy="175" r="12" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+  <circle cx="125" cy="175" r="12" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+  <circle cx="100" cy="225" r="12" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+  <path d="M85 182 l10 35 M115 182 l-10 35 M87 175 h26" stroke="#FFFFFF" stroke-width="6" fill="none"/>
+
+    <text x="180" y="212" font-family="Inter" font-size="48" font-weight="600" fill="#FFFFFF" dominant-baseline="middle">Kobleverk</text>
+  </g>
+</svg>
