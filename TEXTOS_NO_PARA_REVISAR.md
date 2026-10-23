@@ -18,7 +18,7 @@
 
 ## Footer (todas las páginas NO)
 
-- Kobleverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
+- Kobleverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@kobleverk.no
 - Kartlegging · Vekstpartner · Personvern og databehandleravtale · willymartinez.no/consulting · © 2026
 
 ## Nota de precios (páginas con precios)
@@ -202,7 +202,7 @@
 
 ### Meta
 - **title:** Personvern og databehandleravtale – Kobleverk
-- **description:** Personvern på kobleverk.pages.dev og hvordan jeg behandler data for deg som databehandler, med databehandleravtale.
+- **description:** Personvern på kobleverk.no og hvordan jeg behandler data for deg som databehandler, med databehandleravtale.
 
 ### Intro
 - **H1:** Personvern og databehandleravtale
@@ -248,7 +248,7 @@
 ### Mensajes form.js (nb)
 - Sender…
 - Takk! Jeg svarer innen 1 virkedag.
-- Noe gikk galt. Send e-post til kontakt@mlinternasjonal.no.
+- Noe gikk galt. Send e-post til kontakt@kobleverk.no.
 
 ### Om meg
 - (Sin foto de perfil en esta versión.)

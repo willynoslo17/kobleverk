@@ -2,7 +2,7 @@
 
 Sitio estático de **Kobleverk** (parte de ML Digital): AI-automatisering og vekstmarkedsføring for små bedrifter i Norge.
 
-- URL temporal: `https://kobleverk.pages.dev`
+- URL temporal: `https://kobleverk.no`
 - Stack: HTML + CSS + JS mínimo (sin framework ni build)
 - Idiomas: bokmål (`/`) y español (`/es/`)
 - Hosting previsto: Cloudflare Pages
@@ -47,7 +47,7 @@ node scripts/set-base-url.mjs https://kobleverk.no
 5. Build command: *(vacío)*
 6. Build output directory: `/`
 7. Guarda. La web se publica cuando se haga merge del PR a `main`.
-8. Si `kobleverk.pages.dev` ya está ocupado, elige otro nombre de proyecto y ejecuta:
+8. Si `kobleverk.no` ya está ocupado, elige otro nombre de proyecto y ejecuta:
    `node scripts/set-base-url.mjs https://<nuevo-nombre>.pages.dev`
 
 ### Opción B – Wrangler
