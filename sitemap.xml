@@ -1,77 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://kobleverk.no/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/"/>
-  </url>
-  <url>
-    <loc>https://kobleverk.no/es/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/"/>
-  </url>
-  <url>
-    <loc>https://kobleverk.no/kartlegging/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/kartlegging/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/diagnostico/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/kartlegging/"/>
-  </url>
-  <url>
-    <loc>https://kobleverk.no/es/diagnostico/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/kartlegging/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/diagnostico/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/kartlegging/"/>
-  </url>
-  <url>
-    <loc>https://kobleverk.no/automatisering/</loc>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://kobleverk.no/automatisering/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/automatisering/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/automatizacion/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/automatisering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/automatisering/"/>
   </url>
-  <url>
-    <loc>https://kobleverk.no/es/automatizacion/</loc>
+  <url><loc>https://kobleverk.no/en/automatisering/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/automatisering/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/automatizacion/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/automatisering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/automatisering/"/>
   </url>
-  <url>
-    <loc>https://kobleverk.no/vekstpartner/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/vekstpartner/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/socio-de-crecimiento/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/vekstpartner/"/>
+  <url><loc>https://kobleverk.no/sv/automatisering/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/automatisering/"/>
   </url>
-  <url>
-    <loc>https://kobleverk.no/es/socio-de-crecimiento/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/vekstpartner/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/socio-de-crecimiento/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/vekstpartner/"/>
+  <url><loc>https://kobleverk.no/pl/automatisering/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/automatisering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/automatisering/"/>
   </url>
-  <url>
-    <loc>https://kobleverk.no/personvern/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/personvern/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/privacidad/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/personvern/"/>
+  <url><loc>https://kobleverk.no/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/"/>
   </url>
-  <url>
-    <loc>https://kobleverk.no/es/privacidad/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/personvern/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/privacidad/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/personvern/"/>
+  <url><loc>https://kobleverk.no/en/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/"/>
   </url>
-  <url>
-    <loc>https://kobleverk.no/kontakt/</loc>
+  <url><loc>https://kobleverk.no/sv/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/"/>
+  </url>
+  <url><loc>https://kobleverk.no/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/"/>
+  </url>
+  <url><loc>https://kobleverk.no/kartlegging/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/kartlegging/"/>
+  </url>
+  <url><loc>https://kobleverk.no/en/kartlegging/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/kartlegging/"/>
+  </url>
+  <url><loc>https://kobleverk.no/sv/kartlegging/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/kartlegging/"/>
+  </url>
+  <url><loc>https://kobleverk.no/pl/kartlegging/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/kartlegging/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/kartlegging/"/>
+  </url>
+  <url><loc>https://kobleverk.no/kontakt/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/kontakt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/kontakt/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/kontakt/"/>
   </url>
-  <url>
-    <loc>https://kobleverk.no/es/contacto/</loc>
+  <url><loc>https://kobleverk.no/en/kontakt/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/kontakt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://kobleverk.no/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/kontakt/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/kontakt/"/>
   </url>
-<url><loc>https://kobleverk.no/vilkar/</loc></url>
+  <url><loc>https://kobleverk.no/sv/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/kontakt/"/>
+  </url>
+  <url><loc>https://kobleverk.no/pl/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/kontakt/"/>
+  </url>
+  <url><loc>https://kobleverk.no/personvern/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/personvern/"/>
+  </url>
+  <url><loc>https://kobleverk.no/en/personvern/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/personvern/"/>
+  </url>
+  <url><loc>https://kobleverk.no/sv/personvern/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/personvern/"/>
+  </url>
+  <url><loc>https://kobleverk.no/pl/personvern/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/personvern/"/>
+  </url>
+  <url><loc>https://kobleverk.no/vekstpartner/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/vekstpartner/"/>
+  </url>
+  <url><loc>https://kobleverk.no/en/vekstpartner/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/vekstpartner/"/>
+  </url>
+  <url><loc>https://kobleverk.no/sv/vekstpartner/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/vekstpartner/"/>
+  </url>
+  <url><loc>https://kobleverk.no/pl/vekstpartner/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/vekstpartner/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/vekstpartner/"/>
+  </url>
+  <url><loc>https://kobleverk.no/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/vilkar/"/>
+  </url>
+  <url><loc>https://kobleverk.no/en/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/vilkar/"/>
+  </url>
+  <url><loc>https://kobleverk.no/sv/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/vilkar/"/>
+  </url>
+  <url><loc>https://kobleverk.no/pl/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://kobleverk.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kobleverk.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://kobleverk.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kobleverk.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kobleverk.no/vilkar/"/>
+  </url>
 </urlset>
